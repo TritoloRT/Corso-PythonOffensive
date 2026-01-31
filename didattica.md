@@ -1,102 +1,63 @@
-#  					Python base
+<h1 align="center">Python base</h1>  
 
+<br></br>
 
+<h3 align="center"> Concetti di base </h3>
 
-
-
-
-
-
-
-
-
-### Concetti di base
-
- 
-
- 
-
-
-
-#####  							Variabili e Tipo di Dati
-
+<h4> Variabili e Tipo di Dati </h4>
 
 
 Le variabili in Python sono come nomi assegnati ai dati che gestiamo. Pensa a una variabile come al nome che dai a un valore, in modo da poter fare riferimento ad essa e utilizzarla in diverse parti del tuo codice.
-
-
-
 Nella lezione attuale ci concentreremo sulla comprensione delle variabili e di alcuni tipi di dati fondamentali in Python. Questi concetti sono essenziali poiché ci consentono di archiviare e manipolare le informazioni nei nostri programmi.
 
+* Variabili
+
+  Una variabile in Python è come un nome assegnato a un dato. Non è necessario dichiarare il tipo di dati, poiché Python è intelligente nel dedurlo.
 
 
-* ###### Variabili
+* Stringhe
 
- 
-
- 	Una variabile in Python è come un nome assegnato a un dato. Non è necessario dichiarare il tipo di dati, poiché Python è intelligente nel dedurlo.
+  Le stringhe sono sequenze di caratteri utilizzate per gestire il testo. Sono immutabili, il che significa che una volta creati, non è possibile modificare i loro singoli caratteri.
 
 
+* Numeri
 
-* ###### Stringhe
+  Python gestisce diversi tipi numerici, ma ci concentreremo principalmente su:
 
- 	Le stringhe sono sequenze di caratteri utilizzate per gestire il testo. Sono immutabili, il che significa che una volta creati, non è possibile modificare i loro singoli caratteri.
+    * Interi: numeri senza parte decimale.
 
+    * Float: numeri che includono decimali.
 
-
-* ###### Numeri
-
- 
-
- 	Python gestisce diversi tipi numerici, ma ci concentreremo principalmente su:
-
-
-
- 		1. Interi: numeri senza parte decimale.
-
- 		2. Float: numeri che includono decimali.
-
- 		3. Liste.
+    * Liste.
 
  
 
 Gli elenchi sono raccolte ordinate e modificabili che possono contenere elementi di diverso tipo.
 
-
-
 Sono ideali per archiviare e accedere ai flussi di dati. E per lavorare con questi elenchi, così come con le stringhe e gli intervalli di numeri, utilizzeremo i cicli ‘for’, che ci consentono di scorrere ogni elemento di una sequenza in modo efficiente.
-
-
 
 Queste sono solo alcune delle strutture dati con cui lavoreremo per il momento. Man mano che progrediremo nelle lezioni future, esploreremo più tipi di dati e strutture più complesse, espandendo i nostri strumenti per risolvere problemi e costruire programmi più sofisticati.
 
 
-
-
-
  
-
-#####  							String Formatting, Cicli e Condizionali
-
- 
+<h4> String Formatting, Cicli e Condizionali </h4>
 
 Python fornisce diversi modi per formattare le stringhe, consentendoti di inserire variabili al loro interno, nonché di controllare la spaziatura, l’allineamento e la precisione dei dati visualizzati. Ecco le tecniche di formattazione delle stringhe che esploreremo:
 
- 
 
-* ###### Operatore % (percentuale)
+* Operatore % (percentuale)
 
 Conosciuto anche come “interpolazione di stringhe”, questo metodo classico utilizza segnaposto come “%s” per le stringhe, “%d” per i numeri interi o “%f” per i numeri a virgola mobile.
 
 
 
-* ###### metodo format()
+* Metodo format()
 
 Introdotto in Python 2.6, consente maggiore flessibilità e chiarezza. Utilizza le parentesi graffe ‘{}’ come segnaposto all’interno della stringa e può includere dettagli sul formato dell’output.
 
- 
 
-* ###### F-Strings (interpolazione letterale di stringhe)
+ 
+* -Strings (interpolazione letterale di stringhe)
 
 Disponibili a partire da Python 3.6, F-Strings offre un modo conciso e leggibile per incorporare espressioni all’interno di stringhe letterali utilizzando la lettera ‘f’ prima di aprire virgolette e parentesi graffe per indicare dove verranno inserite variabili o espressioni.
 
@@ -1017,4 +978,5 @@ In sintesi, impareremo il processo di confezionamento e distribuzione del softwa
 
 
 ### Flusso dei dati
+
 
