@@ -596,10 +596,3 @@ Esploreremo le funzioni e i metodi integrati per la manipolazione delle stringhe
 
 
 Vedremo anche come lavorare con le stringhe Unicode in Python, che è essenziale per le applicazioni moderne che devono supportare più lingue e caratteri speciali.
-
-
-
-### <u>Progetti (POO)
-</u>
-
-
